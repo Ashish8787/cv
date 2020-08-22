@@ -1,0 +1,165 @@
+<html>
+    <head>
+        <title> Addmission form</title>
+    </head>
+    <body bgcolor="#f0ffff">
+        <h1 align="center"><font color="orange">ADMISSION FORM</font></h1><hr size="5" color="teal"/>
+        <fieldset>
+            <legend>Form Submission</legend>
+            <table cellspacing="15">
+            <tr>
+                    <td>First Name:</td>
+                    <td><input type="text" name="txt" title="Please Enter Data Carefully" autocomplete="off" size="30" placeholder="First Name" required/>
+                    <input type="text" name="txt" title="Please Enter Data Carefully" autocomplete="off" size="30" placeholder="Middle Name"/>
+                    <input type="text" name="txt" title="Please Enter Data Carefully" autocomplete="off" size="30" placeholder="Last Name" required/></td>
+                </tr>
+                <tr>
+                    <td>Upload Your Photo:</td>
+                    <td><input type="file"/></td>
+                </tr>
+                <tr>
+                    <td>Date Of Birth:</td>
+                    <td><input type="date" placeholder="DD/MM/YYYY"/></td>
+                </tr>
+                <tr>
+                    <td>Adhar Number:</td>
+                    <td><input type="number" name="number" maxlenght="12" placeholder="Enter 12 digit Adhar no." required</td>
+                </tr>
+                <tr>
+                    <td>Upload Adharcard</td>
+                    <td><input type="file" required/></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>Male<input type="radio" name="r"/>
+                        Female<input type="radio" name="r"/>
+                        Other<input type="radio" name="r"/></td>
+                </tr>
+                <tr>
+                    <td>Email ID:</td>
+                    <td><input type="email" size="50" placeholder="Enter your Email" required/></td>
+                </tr>
+                <tr>
+                    <td>Mobile Number:</td>
+                    <td><input type"number" name="number" maxlength="10" placeholder="Enter your Mobile no." required/></td>
+                </tr>
+                <tr>
+                    <td>Father's Name:</td>
+                    <td><input type="text" name="txt" size="30" placeholder="Father's Name" required/></td>
+                    </tr>
+                    <tr>
+                    <td>Father's Mobile No.:</td>
+                    <td><input type"number" name="number" maxlength="10" placeholder="Enter Father's Mobile No." required/></td>
+                </tr>
+                <tr>
+                    <td>Father's Occupation:</td>
+                    <td><input type="text" name="txt" placeholder="Enter Father's Occupation" required/></td>
+                </tr>
+                <tr>
+                    <td>Mother's Name:</td>
+                    <td><input type="text" name="txt" size="30" placeholder="Mother's Name" required/></td>
+                    </tr>
+                <tr>
+                    <td>Mother's Occupation:</td>
+                    <td><input type="text" name="txt" placeholder="Enter Mother's Occupation" required/></td>
+                </tr>
+                <tr>
+                    <td>High School Marks:</td>
+                    <td><input type="text" name="txt" placeholder="Enter High School Marks" required/></td>
+                </tr>
+                <tr>
+                    <td>High School Roll Number:</td>
+                    <td><input type="text" name="txt" size="20" placeholder="EnterHigh School Roll Number" required/></td>
+                </tr>
+                <tr>
+                    <td>Upload High school Marksheet:</td>
+                    <td><input type="file"/></td>
+                </tr>
+                <tr>
+                    <td>Collage/School Name:</td>
+                    <td><input type="text" name="txt" size="80" placeholder="Enter Collage/School Name" required/></td>
+                </tr>
+                <tr>
+                    <td>Choose Your Subject:</td>
+                    <td>
+                        Hindi<input type="checkbox" checked/>
+                        English<input type="checkbox"/>
+                        Chemistry<input type="checkbox"/>
+                        Social Science<input type="checkbox"/>
+                        Science<input type="checkbox"/>
+                        Computer Science<input type="checkbox"/>
+                            </td>
+                </tr>
+                <tr>
+                    <td>Caste Certificate No:</td>
+                    <td><input type="text" size="30" placeholder="Enter Caste Certificate No" required/></td>
+                </tr>
+                <tr>
+                    <td>Upload Caste Document:</td>
+                    <td><input type="file"/></td>
+                </tr>
+                <tr>
+                    <td>Income Certificate No:</td>
+                    <td><input type="text" size="30" placeholder="Enter Income Certificate No"/></td>
+                </tr>
+                <tr>
+                    <td>Upload Income Document:</td>
+                    <td><input type="file"/></td>
+                </tr>
+                <tr>
+                    <td>Domicile Certificate No:</td>
+                    <td><input type="text" size="30" placeholder="Enter Income Certificate No" required/></td>
+                </tr>
+                <tr>
+                    <td>Upload Domicile Document:</td>
+                    <td><input type="file"/></td>
+                </tr>
+            </table>
+            <hr>
+            <h3>Address...</h3>
+            <table>
+                <tr>
+                    <td>Address Line 1:</td>
+                    <td><input type="text" size="50" placeholder="Enter Address Line 1" required/></td>
+                </tr>
+                <tr>
+                    <td>Address Line 2:</td>
+                    <td><input type="text" size="50" placeholder="Enter Address Line 1"/></td>
+                </tr><tr>
+                    <td>Address Line 3:</td>
+                    <td><input type="text" size="50" placeholder="Enter Address Line 1"/></td>
+                </tr>
+                <tr>
+                    <td>Town/City Name:</td>
+                    <td><input type="text" size="30" placeholder="Enter Town/City Name" required/></td>
+                </tr>
+                <tr>
+                    <td>State:</td>
+                    <td><input type="text" size="30" placeholder="Enter your state" required/></td>
+                </tr>
+                <tr>
+                    <td>Pin Code:</td>
+                    <td><input type="number" maxlenght="6" placeholder="Enter Pin Code" required/></td>
+                </tr>
+                <tr>
+                    <td>Country:</td>
+                    <td><input type="text" value="India" readonly/></td>
+                </tr>
+            </table>
+            <input type="checkbox" name="" value="">
+            <label>Do you want to Submit?</label><br>
+            <center>
+            <tr>
+                    <td><input type="button" value="Button"/>
+                        <input type="submit" value="Submit"/>
+                        <input type="reset" value="Reset"/>
+                    </td>
+                </tr>
+                </center>
+        </fieldset>
+        <h1>Contact Details</h1>
+  <p>Raipur Baghpur post kelhi ghazipur</p>
+  <p>8787203177,7617826359</p>
+  <p>ashishkumarmaurya17@gmail.com</p>
+    </body>
+</html>
